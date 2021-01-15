@@ -8,7 +8,7 @@
 
 <img src="../images/adapter.png" />
 
-* target 인터페이스는 adaptee 인터페이스로 변환되어야 한다.
+* target 인터페이스는 adaptee 인터페이스를 사용할 수 있어야 한다.
 * target 인터페이스와 adaptee 인터페이스 간의 접점은 `adpater` 클래스가 중간에 존재하기 때문에 가능하다.
 * adapter 는 adaptee 를 `composition` 하고 있다.
     * target 메소드를 오버라이딩한 adapter 는 adaptee 의 서브클래스 메소드를 실행할 수 있다.
