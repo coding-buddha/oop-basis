@@ -1,4 +1,5 @@
 rootProject.name = 'oop-basis'
 include ('design-pattern-decorator')
-include 'design-pattern-adapter'
+include ('design-pattern-adapter')
+include ('java-sample')
 
